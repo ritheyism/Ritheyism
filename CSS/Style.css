@@ -1,0 +1,64 @@
+﻿body {
+    color:#FFFFFF;
+    background-color:#000000
+}
+#header,#video{
+    text-align:center
+}
+#header {
+    position:relative;
+    width:450px;
+    border:5px solid #FF0000;
+    background-color:#650000;
+    position:relative;
+    left:450px
+}
+.navbar,#navbar{
+    border:5px solid #FF0000;
+    background-color:#650000;
+    color:#FFFFFF
+}
+#navbar{
+    width:160px;
+    height:21px
+}
+.navbar{
+    margin-left:10px
+}
+#date{
+    color:#FFFFFF;
+}
+#date {
+    text-align:right;
+}
+.othermusic {
+    position:fixed;
+    left:900px;
+    bottom:420px;
+    background-color:#650000;
+    width:330px;
+    border:5px solid #ff0000;
+    padding:5px;
+}
+.caption{
+    width:330px;
+}
+.footer{
+    background-color:#303030;
+    border:5px solid #000000;
+    padding:5px;
+    height:50px;
+    position:absolute;
+    bottom:-35px;
+    text-align:center;
+    width:1310px;
+}
+.footer_text{
+    margin-bottom:0px;
+    margin-top:0px;
+}
+.gotd{
+    font-size:40px;
+    color:#FFFFFF;
+    text-decoration:none;
+}
