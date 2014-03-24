@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <link rel="stylesheet" type="text/css" href="CSS/Style.css"><meta charset="utf-8" />
@@ -60,15 +60,13 @@
                 });
             });
         });
-        var header = document.getElementById('#header')
-        if ($('header').width() < 100) {
-            $(document).ready(function () {
-                $("#smaller").click(function () {
-                    $header.animate({
-                        height: '-=50px',
-                        width: '-=50px',
-                        left: '+=50px',
-                    });
+         var header = document.getElementById('#header')
+        if ($('#header').width() < 100) {
+            $("#smaller").click(function () {
+                $("#header").animate({
+                    height: '-=50px',
+                    width: '-=50px',
+                    left: '+=50px',
                 });
             });
         }
@@ -76,9 +74,9 @@
             {
                 $(document).ready(function () {
                     $("#smaller").click(function () {
-                        $("header").animate({ height: '-=20px', width: '-=20px', left: '-=10px', top: '-=10px', })
+                        $("#header").animate({ height: '-=20px', width: '-=20px', left: '-=10px', top: '-=10px', })
                         {
-                            $("header").animate({ height: '+=20px', width: '+=20px', left: '+=10px', top: '+=10px', })
+                            $("#header").animate({ height: '+=20px', width: '+=20px', left: '+=10px', top: '+=10px', })
                         }
                     }
                     )
