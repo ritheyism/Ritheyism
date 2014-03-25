@@ -60,8 +60,7 @@
                 });
             });
         });
-         var header = document.getElementById('#header')
-        if ($('#header').width() < 100) {
+        if ($('#header').width() > 100) {
             $("#smaller").click(function () {
                 $("#header").animate({
                     height: '-=50px',
@@ -72,14 +71,9 @@
         }
         else {
             {
-                $(document).ready(function () {
-                    $("#smaller").click(function () {
-                        $("#header").animate({ height: '-=20px', width: '-=20px', left: '-=10px', top: '-=10px', })
-                        {
-                            $("#header").animate({ height: '+=20px', width: '+=20px', left: '+=10px', top: '+=10px', })
-                        }
-                    }
-                    )
+                $("#smaller").click(function () {
+                    $("#header").animate({ height: '-=20px', width: '-=20px', })
+                        $("#header").animate({ height: '+=20px', width: '+=20px', })
                 }
                 )
             }
